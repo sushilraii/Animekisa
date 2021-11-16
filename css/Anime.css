@@ -1,0 +1,359 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+ --theme: black;
+ --white: white;
+ --gray: rgba(0, 0, 0, 0.238);
+ --red: red;
+}
+body {
+ background-color: var(--theme);
+ width: 100%;
+ height: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top;
+ background-position-x: top;
+}
+.title {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: var(--black);
+ padding-left: 10px;
+ background-image: url(../pic/JO.png);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+.title h1 {
+ font-size: 50px;
+ font-family: "Courier New", Courier, monospace;
+ margin: 30px 0 0 3%;
+}
+.title-contaner {
+ font-size: 30px;
+ color: var(--red);
+}
+.search input {
+ margin-right: 50px;
+}
+.nav {
+ display: flex;
+}
+.bar a {
+ color: var(--black);
+ text-decoration: none;
+}
+.nav ul {
+ margin: 10 30 0 0px;
+ font-size: 20px;
+ font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.bar ul:hover {
+ transform: translateY(-5px);
+}
+.bar {
+ display: flex;
+}
+input {
+ background: transparent;
+ border: 2px solid;
+ border-radius: 20px;
+ padding: 8 15 8 15;
+ font-size-adjust: 130%;
+ transition: 0.3s;
+}
+input:hover {
+ transform: translateY(-5px);
+ background-color: var(--gray);
+}
+.pic {
+ width: 158px;
+ height: 240px;
+ border-radius: 10px;
+ transition: transform 0.3s;
+ cursor: pointer;
+ margin: 15px;
+ /*background-position: center;*/
+ background-size: cover;
+ position: relative;
+ overflow: hidden;
+}
+
+.row {
+ background-image: url(../pic/dev.jpg);
+ background-position: center;
+ margin: 0% 0 0 0;
+ background-size: cover;
+ background-attachment: fixed;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+   Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.pic h1 {
+ text-align: center;
+ word-break: break-all;
+ color: var(--white);
+margin: 100px 0 0 0;
+}
+
+.card {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background: var(--gray);
+ display: none;
+ justify-content: center;
+}
+.pic a {
+
+ text-decoration: none;
+ color: var(--white);
+ font-size: 25px;
+}
+.pic:hover {
+ transform: translateY(-15px);
+}
+
+/*.pic:active {
+ transform: scale(2);
+ z-index: 2;
+}*/
+
+.pic:hover .card {
+ display: flex;
+}
+.pic1 {
+ background-image: url("../Pic/n.webp");
+}
+.pic2 {
+ background-image: url("../Pic/o.jpg");
+}
+.pic3 {
+ background-image: url("../Pic/m.webp");
+}
+.pic4 {
+ background-image: url("../Pic/k.webp");
+}
+.pic5 {
+ background-image: url("../Pic/g.png");
+}
+.pic6 {
+ background-image: url("../Pic/z.jpg");
+}
+.pic7 {
+ background-image: url("../Pic/d.webp");
+}
+.pic8 {
+ background-image: url("../Pic/p.webp");
+}
+.pic9 {
+ background-image: url("../Pic/r.png");
+}
+.pic10 {
+ background-image: url("../Pic/s.png");
+}
+.pic11 {
+ background-image: url("../Pic/c.webp");
+}
+.pic12 {
+ background-image: url("../Pic/f.webp");
+}
+.pic13 {
+ background-image: url("../Pic/a.jpg");
+}
+.pic14 {
+ background-image: url("../Pic/w.webp");
+}
+.pic15 {
+ background-image: url("../Pic/p.jpg");
+}
+.pic16 {
+ background-image: url("../Pic/D.jpg");
+}
+.pic17 {
+ background-image: url("../Pic/v.webp");
+}
+.pic18 {
+ background-image: url("../Pic/2.webp");
+}
+.pic19 {
+ background-image: url("../Pic/h.png");
+}
+.pic20 {
+ background-image: url("../Pic/j.webp");
+}
+.pic21 {
+ background-image: url("../Pic/l.jpg");
+}
+.pic22 {
+ background-image: url("../Pic/1.jpg");
+}
+.pic23 {
+ background-image: url("../Pic/g.webp");
+}
+.pic24 {
+ background-image: url("../Pic/g.jpg");
+}
+.pic25 {
+ background-image: url("../Pic/i.png");
+}
+.pic26 {
+ background-image: url("../Pic/i.webp");
+}
+.pic27 {
+ background-image: url("../Pic/w.png");
+}
+.pic28 {
+ background-image: url("../Pic/w.jpg");
+}
+.pic29 {
+ background-image: url("../Pic/r.jpg");
+}
+.pic30 {
+ background-image: url("../Pic/k.jpg");
+}
+.pic31 {
+ background-image: url("../Pic/t.jpg");
+}
+.pic32 {
+ background-image: url("../Pic/h.webp");
+}
+.pic33 {
+ background-image: url("../Pic/m.jpg");
+}
+.pic34 {
+ background-image: url("../Pic/s.jpg");
+}
+.pic35 {
+ background-image: url("../Pic/h.jpg");
+}
+.pic36 {
+ background-image: url("../Pic/t.webp");
+}
+.pic37 {
+ background-image: url("../Pic/b.png");
+}
+.pic38 {
+ background-image: url("../Pic/c.png");
+}
+.pic39 {
+ background-image: url("../Pic/t.png");
+}
+.pic40 {
+ background-image: url("../Pic/m.png");
+}
+.pic41 {
+ background-image: url("../Pic/3.jpg");
+}
+.pic42 {
+ background-image: url("../Pic/7.jpg");
+}
+.pic43 {
+ background-image: url("../Pic/tt.webp");
+}
+.pic44 {
+ background-image: url("../Pic/mm.webp");
+}
+.pic45 {
+ background-image: url("../Pic/nn.webp");
+}
+.pic46 {
+ background-image: url("../Pic/a.webp");
+}
+.pic47 {
+ background-image: url("../Pic/to.webp");
+}
+.pic48 {
+ background-image: url("../Pic/bo.webp");
+}
+.pic49 {
+ background-image: url("../Pic/th.jpg");
+}
+.pic50 {
+ background-image: url("../Pic/cl.webp");
+}
+.pic51 {
+ background-image: url("../Pic/ke.webp");
+}
+.pic52 {
+ background-image: url("../Pic/my.jpg");
+}
+.pic53 {
+ background-image: url("../Pic/ku.jpg");
+}
+.pic54 {
+ background-image: url("../Pic/kd.webp");
+}
+.pic55 {
+ background-image: url("../Pic/gf.webp");
+}
+.pic56 {
+ background-image: url("../Pic/so.jpg");
+}
+.pic57 {
+ background-image: url("../Pic/bl.jpg");
+}
+.pic58 {
+ background-image: url("../Pic/do.jpg");
+}
+.pic59 {
+ background-image: url("../Pic/in.jpg");
+}
+.pic60 {
+ background-image: url("../Pic/hi.jpg");
+}
+.pic61 {
+ background-image: url("../Pic/pt.jpg");
+}
+.pic62 {
+ background-image: url("../Pic/ms.webp");
+}
+.pic63 {
+ background-image: url("../Pic/yw.jpg");
+}
+.pic64 {
+ background-image: url("../Pic/gc.webp");
+}
+.pic65 {
+ background-image: url("../Pic/sg.png");
+}
+.pic66 {
+ background-image: url("../Pic/ac.webp");
+}
+.pic67 {
+ background-image: url("../Pic/kj.jpg");
+}
+.pic68 {
+ background-image: url("../Pic/ch.jpg");
+}
+.pic69 {
+ background-image: url("../Pic/ka.webp");
+}
+.pic70 {
+ background-image: url("../Pic/tg.png");
+}
+.pic71 {
+ background-image: url("../Pic/ta.webp");
+}
+.pic72 {
+ background-image: url("../Pic/tk.jpg");
+}
+.pic73 {
+ background-image: url("../Pic/bs.webp");
+}
+.pic70 {
+ background-image: url("../Pic/tg.png");
+}
+.pic70 {
+ background-image: url("../Pic/tg.png");
+}
